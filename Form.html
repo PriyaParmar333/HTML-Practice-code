@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form></title>
+    </head>
+    <body>
+        <!-- with the help of action we come to know that After submitting the form where it redirected to as mentioned in derver -->
+        <form action="/server"> 
+            <div>
+        <label for="username"> Enter Name:</label>
+        <input type="text" id="username" placeholder="username" name="user">
+       </div>
+      <div>
+        <label for="password"> Enter Password:</label>
+        <input type="password" placeholder="password" id="password" name="pass">
+       </div>
+       <div>
+       <label for="age">I am 18+</label>
+       <input type="checkbox" id="age"name="age">
+       </div>
+       <div>
+        <label>Enter your gender</label>
+        <input type="radio" id="FEMALE" name="gender">
+        <label for="FEMALE">FEMALE</label>
+        <input type="radio" id="MALE" name="gender">
+        <label for="MALE">MALE </label>
+        </div>
+        <br>
+        <div>
+            Choose your options
+            <select name="profession" id="profession">   
+                <option value="student"> Student</option>
+                <option value="dev"> Developer</option>
+             </select>
+        </div>
+        <div>
+            <label for="volume"> Volume</label>
+            <input type="range" id="volume" min="0" max="100" name="volume"/>
+        </div>
+        <label for="feedback"> Give your Feedback</label>
+        <textarea id="feedback" placeholder="Give feedback"></textarea>
+        
+        
+       <button type="submit">Submit</button>
+       <button type="reset">reset</button>
+       <!-- <div>
+       <label for="age">Enter age:</label> 
+       <input type="number" placeholder="Age" id="age">
+       </div>
+       
+        -->
+       
+       
+        <!--
+       <label>
+        time:
+       <input type="time"placeholder="Enter time">
+       </label>
+       <br>
+       <label>
+        color:
+       <input type="color"placeholder="Enter color">
+       </label>  
+       -->
+       
+      
+       </form>
+        
+    </body>
+</html>
+<hr>
+<form action="https://www.google.com/search">
+    <input type="text" placeholder="Search on GOOGLE" name="q">
+    <br>
+    <button>submit</button>
+    <button type="reset">reset</button>
+
+</form>
+<hr>
+<form action="https://www.youtube.com/results">
+    <input type="text" placeholder="Search on Youtube" name="search_query">
+    <br>
+    <button>submit</button>
+    <button type="reset">reset</button>
+
+</form>
